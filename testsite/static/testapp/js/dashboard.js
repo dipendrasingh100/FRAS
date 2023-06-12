@@ -332,7 +332,7 @@ function checkTime() {
   // Check if the current minute is one of the target minutes
   var minute = now.getMinutes();
   // 15 30 45 50
-  if (minute == 48 || minute == 49 || minute == 50 || minute == 51) {
+  if (minute == 1 || minute == 2 || minute == 2 || minute == 3) {
     // Perform the desired action
     capture_images();
     console.log("Image captured")

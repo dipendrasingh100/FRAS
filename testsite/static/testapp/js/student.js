@@ -162,7 +162,7 @@ nextBtn.addEventListener("click", () => {
     imgElement.src = finalCanvas.toDataURL();
     imageContainer.appendChild(imgElement);
 
-    alert("Well done! You've captured the required number of images.");
+    // alert("Well done! You've captured the required number of images.");
   }
 });
 
